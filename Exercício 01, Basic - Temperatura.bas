@@ -1,6 +1,6 @@
 10 INPUT "Digite a temperatura em graus Celsius: ";  C
 
-20  K = C + 273.15
+20  K = (VAL(C) + 273.15)
 30  F = (C * 9 / 5) + 32
 
 40 PRINT "Temperatura em Celsius: "
